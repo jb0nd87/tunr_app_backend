@@ -5,3 +5,11 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+10.times do
+  Song.create(
+    title: Faker::Hipster.sentence(word_count: 3),
+    artist_name: Faker::Team.name,
+  )
+end
+puts 'seeded data'
