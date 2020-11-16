@@ -18,5 +18,5 @@ Song.create([
     {title: '(Dont Fear) The Reaper', artist_name: 'Blue Oyster Cult', time: '5:08'},
     {title: 'Fortunate Son', artist_name: 'Creedence Clearwater Revival', time: '2:20'},
 ])
-end
+
 puts 'seeded data'
